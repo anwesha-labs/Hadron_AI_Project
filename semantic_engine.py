@@ -13,25 +13,45 @@ descriptions = []
 
 descriptions = [
 
-    "Proton baryon quark composition up up down symbol p charge positive"
+    "EtaZero is a neutral meson containing up anti-up down anti-down and strange anti-strange quarks",
 
-    "Neutron baryon quark composition up down down symbol n charge neutral"
+    "KaonPlus is a positive meson with up anti-strange quark",
+
+    "KaonMinus is a negative meson with strange anti-up quark",
+
+    "PionPlus is a positive meson with up anti-down quark",
+
+    "PionZero is a neutral meson with up anti-up and down anti-down quarks",
+
+    "PionMinus is a negative meson with down anti-up quark",
 
     "Lambda0 is a neutral baryon with up down strange quarks",
 
-    "SigmaPlus is a positive baryon with up up strange quarks",
+    "OhmMinus is a negative baryon with strange strange strange quarks",
+
+    "Proton is a positive baryon with up up down quarks",
+
+    "Neutron is a neutral baryon with up down down quarks",
+
+    "XiZero is a neutral baryon with up strange strange quarks",
 
     "XiMinus is a negative baryon with down strange strange quarks",
 
-    "PionPlus is a positive meson with up anti down quark",
+    "XiPlus is a positive antibaryon with anti-down anti-strange anti-strange quarks",
 
-    "PionZero is a neutral meson",
+    "SigmaZero is a neutral baryon with up down strange quarks",
 
-    "KaonPlus is a positive meson with up anti strange quark",
+    "SigmaPlus is a positive baryon with up up strange quarks",
 
-    "KaonZero is a neutral meson with down anti strange quark",
+    "SigmaMinus is a negative baryon with down down strange quarks",
 
-    "Jpsi is a meson with charm anti charm quarks"
+    "DeltaPlusPlus is a doubly positive baryon with up up up quarks",
+
+    "DeltaPlus is a positive baryon with up up down quarks",
+
+    "DeltaZero is a neutral baryon with up down down quarks",
+
+    "DeltaMinus is a negative baryon with down down down quarks"
 ]
 
 # Convert descriptions into embeddings
