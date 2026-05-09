@@ -7,24 +7,23 @@ def draw_particle(particle_name, quarks):
 
     fig, ax = plt.subplots(figsize=(6, 6))
 
-    # Main particle circle
+
     particle_circle = plt.Circle((0.5, 0.5), 0.35, color='skyblue')
 
     ax.add_patch(particle_circle)
 
 
 
-    # Quark positions
-# Dynamic positions based on number of quarks
-    if len(quarks) == 3: # Baryon
+
+    if len(quarks) == 3: 
         positions = [(0.35, 0.60), (0.65, 0.60), (0.50, 0.35)]
-    else: # Meson
+    else: 
         positions = [(0.40, 0.50), (0.60, 0.50)]
 
     colors = ['red', 'green', 'yellow']
 
 
-    # Draw quarks
+
     for i, quark in enumerate(quarks):
 
         qx, qy = positions[i]
@@ -39,10 +38,10 @@ def draw_particle(particle_name, quarks):
                 va='center',
                 color='black')
 
-    # Title
+
     plt.title(f"{particle_name} Structure")
 
-    # Remove axes
+ 
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
 

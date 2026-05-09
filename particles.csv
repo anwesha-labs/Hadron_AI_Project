@@ -1,13 +1,23 @@
-name,symbol,type,quark_content,charge,spin,mass_MeV,mean_lifetime_s,decay_mode,interaction
+name,symbol,type,quark_content,charge,strangeness,isospin,isospin_3rd_component,baryon_number,mass_MeV,mean_lifetime_s,decay_mode,interaction
 
-Proton,p,baryon,up up down,+1,1/2,938.272,stable,none,strong
-Neutron,n,baryon,up down down,0,1/2,939.565,880,beta decay,weak
-Lambda0,Λ0,baryon,up down strange,0,1/2,1115.683,2.6e-10,proton + pion,weak
-SigmaPlus,Σ+,baryon,up up strange,+1,1/2,1189.37,8.0e-11,proton + pion,weak
-XiMinus,Ξ-,baryon,down strange strange,-1,1/2,1321.71,1.6e-10,Lambda0 + pion,weak
+EtaZero,η0,meson,"up anti-up + down anti-down + strange anti-strange",0,0,0,0,0,547.862,5.0e-19,"two gamma",electromagnetic
+KaonPlus,K+,meson,"up anti-strange",+1,+1,1/2,+1/2,0,493.677,1.24e-8,"muon + neutrino",weak
+KaonMinus,K-,meson,"strange anti-up",-1,-1,1/2,-1/2,0,493.677,1.24e-8,"muon + antineutrino",weak
+PionPlus,π+,meson,"up anti-down",+1,0,1,+1,0,139.570,2.60e-8,"muon + neutrino",weak
+PionZero,π0,meson,"up anti-up / down anti-down",0,0,1,0,0,134.977,8.4e-17,"two gamma",electromagnetic
+PionMinus,π-,meson,"down anti-up",-1,0,1,-1,0,139.570,2.60e-8,"muon + antineutrino",weak
 
-PionPlus,π+,meson,up anti-down,+1,0,139.57,2.6e-8,muon + neutrino,weak
-PionZero,π0,meson,up anti-up down anti-down,0,0,134.98,8.4e-17,two gamma,electromagnetic
-KaonPlus,K+,meson,up anti-strange,+1,0,493.677,1.2e-8,muon + neutrino,weak
-KaonZero,K0,meson,down anti-strange,0,0,497.611,9e-11,two pion,weak
-Jpsi,J/ψ,meson,charm anti-charm,0,1,3096.9,7.2e-21,electron positron,electromagnetic
+Lambda0,Λ0,baryon,"up down strange",0,-1,0,0,1,1115.683,2.63e-10,"proton + pion",weak
+OhmMinus,Ω-,baryon,"strange strange strange",-1,-3,0,0,1,1672.45,8.21e-11,"Lambda0 + kaon",weak
+Proton,p,baryon,"up up down",+1,0,1/2,+1/2,1,938.272,stable,"none",strong
+Neutron,n,baryon,"up down down",0,0,1/2,-1/2,1,939.565,880,"proton + electron + antineutrino",weak
+XiZero,Ξ0,baryon,"up strange strange",0,-2,1/2,+1/2,1,1314.86,2.90e-10,"Lambda0 + pion",weak
+XiMinus,Ξ-,baryon,"down strange strange",-1,-2,1/2,-1/2,1,1321.71,1.64e-10,"Lambda0 + pion",weak
+XiPlus,Ξ+,baryon,"anti-down anti-strange anti-strange",+1,+2,1/2,+1/2,-1,1321.71,1.64e-10,"anti-Lambda0 + pion",weak
+SigmaZero,Σ0,baryon,"up down strange",0,-1,1,0,1,1192.642,7.4e-20,"Lambda0 + gamma",electromagnetic
+SigmaPlus,Σ+,baryon,"up up strange",+1,-1,1,+1,1,1189.37,8.02e-11,"proton + pion",weak
+SigmaMinus,Σ-,baryon,"down down strange",-1,-1,1,-1,1,1197.449,1.48e-10,"neutron + pion",weak
+DeltaPlusPlus,Δ++,baryon,"up up up",+2,0,3/2,+3/2,1,1232,5.6e-24,"proton + pion",strong
+DeltaPlus,Δ+,baryon,"up up down",+1,0,3/2,+1/2,1,1232,5.6e-24,"proton + pion",strong
+DeltaZero,Δ0,baryon,"up down down",0,0,3/2,-1/2,1,1232,5.6e-24,"neutron + pion",strong
+DeltaMinus,Δ-,baryon,"down down down",-1,0,3/2,-3/2,1,1232,5.6e-24,"neutron + pion",strong

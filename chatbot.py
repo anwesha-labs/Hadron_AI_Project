@@ -8,7 +8,7 @@ from intents import detect_intent
 model = SentenceTransformer('all-MiniLM-L6-v2')
 data = pd.read_csv("particles.csv")
 
-# Improved Semantic descriptions to help the AI when you make a typo
+
 particle_descriptions = {
 
     "Proton": "Proton baryon made of up up down quarks",
@@ -51,7 +51,7 @@ particle_quarks = {
 }
 
 def detect_quarks(text):
-    # Standardize input: handles "anti down" vs "anti-down"
+
     text = text.lower().replace("anti ", "anti-")
     flavors = ["up", "down", "strange", "charm", "anti-down", "anti-up", "anti-strange", "anti-charm"]
     

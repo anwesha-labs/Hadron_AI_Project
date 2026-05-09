@@ -1,59 +1,3 @@
-Hadron_AI_Project/
-│
-├── data/
-│   └── particles.csv
-│
-├── models/
-│   └── classifier.py
-│
-├── visualization/
-│   └── visualizer.py
-│
-├── nlp/
-│   └── chatbot.py
-│
-├── app/
-│   ├── main.py
-│   └── test.py
-│
-└── README.md
-
-
-
-project structure
-
-
-
-particle database
-
-
-
-workflow logicWorkflow - User Input
-
-   ↓
-
-NLP Module
-
-   ↓
-
-Hadron Classifier
-
-   ↓
-
-Physics Database
-
-   ↓
-
-Decay Predictor
-
-   ↓
-
-3D Visualization
-
-   ↓
-
-Final Output Screen 
-
 
 
 USER
@@ -70,16 +14,3 @@ AI Response Generator
    ↓
 Visualizer
 
-
-| File                 | Work                                                                                                  |
-| -------------------- | ----------------------------------------------------------------------------------------------------- |
-| `particles.csv`      | Main particle database. Stores all hadron information like name, quarks, mass, charge, decay etc.     |
-| `classifier.py`      | Reads CSV and returns formatted particle information. Basically the database reader/searcher.         |
-| `chatbot.py`         | Main conversation logic. Takes user input and decides what response/action should happen.             |
-| `intents.py`         | Detects what user wants. Example: draw, compare, info, decay, mass etc.                               |
-| `semantic_engine.py` | REAL AI/NLP part. Uses embeddings + semantic similarity to understand meaning instead of exact words. |
-| `visualizer.py`      | Draws particle structures and plots graphs/charts using matplotlib.                                   |
-| `main.py`            | Central launcher/controller of whole project. Connects chatbot, visualizer, classifier etc together.  |
-| `test.py`            | Temporary testing file for checking semantic search separately before integrating into chatbot.       |
-| `README.md`          | Project explanation/documentation file. Explains project purpose, setup, features etc.                |
-| `workflow.txt`       | Your planning/notes/roadmap file. Helps organize architecture and future upgrades.                    |
