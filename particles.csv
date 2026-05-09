@@ -1,0 +1,13 @@
+name,symbol,type,quark_content,charge,spin,mass_MeV,mean_lifetime_s,decay_mode,interaction
+
+Proton,p,baryon,up up down,+1,1/2,938.272,stable,none,strong
+Neutron,n,baryon,up down down,0,1/2,939.565,880,beta decay,weak
+Lambda0,Λ0,baryon,up down strange,0,1/2,1115.683,2.6e-10,proton + pion,weak
+SigmaPlus,Σ+,baryon,up up strange,+1,1/2,1189.37,8.0e-11,proton + pion,weak
+XiMinus,Ξ-,baryon,down strange strange,-1,1/2,1321.71,1.6e-10,Lambda0 + pion,weak
+
+PionPlus,π+,meson,up anti-down,+1,0,139.57,2.6e-8,muon + neutrino,weak
+PionZero,π0,meson,up anti-up down anti-down,0,0,134.98,8.4e-17,two gamma,electromagnetic
+KaonPlus,K+,meson,up anti-strange,+1,0,493.677,1.2e-8,muon + neutrino,weak
+KaonZero,K0,meson,down anti-strange,0,0,497.611,9e-11,two pion,weak
+Jpsi,J/ψ,meson,charm anti-charm,0,1,3096.9,7.2e-21,electron positron,electromagnetic
