@@ -37,11 +37,21 @@ if query:
     elif intent == "interaction":
 
         st.info(f"Interaction of {result['name']} = {result['interaction']}")
+
     elif intent == "draw":
 
         particle_name = result["name"]
 
-        quarks = result["quark_content"].split()
+        quark_text = result["quark_content"]
+
+        # Handle mixed quark states safely
+        if "/" in quark_text:
+            quark_text = quark_text.split("/")[0]
+
+        if "+" in quark_text:
+            quark_text = quark_text.split("+")[0]
+
+        quarks = quark_text.split()
 
         st.success(f"Drawing {particle_name}")
 
@@ -55,7 +65,16 @@ if query:
 
         particle_name = result["name"]
 
-        quarks = result["quark_content"].split()
+        quark_text = result["quark_content"]
+
+        # Handle mixed quark states safely
+        if "/" in quark_text:
+            quark_text = quark_text.split("/")[0]
+
+        if "+" in quark_text:
+            quark_text = quark_text.split("+")[0]
+
+        quarks = quark_text.split()
 
         fig = draw_particle(particle_name, quarks)
 
